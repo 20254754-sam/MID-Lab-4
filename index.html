@@ -17,9 +17,35 @@
             <h3>Password:</h3>
             <input type="password" placeholder="Password must be at least 8 characters long." required>
             <h3>Age (Optional):</h3>
-            <input type="number" placeholder="Enter your age between 0 and 120 if desired." required>
+            <input type="number" placeholder="Enter your age between 0 and 120 if desired.">
+            
+            <h3>Gender:</h3>
+            <input type="radio" name="gender" required>Male
+            <input type="radio" name="gender" required>Female
+            <input type="radio" name="gender" required>Other
+            
+            <h3>Hobbies/Interest:</h3>
+            <input type="checkbox">Sports
+            <input type="checkbox">Traveling
+            <input type="checkbox">Gaming
+            <input type="checkbox">Music
+            <input type="checkbox">Cooking
+            <input type="checkbox">Art
+            <input type="checkbox">Technology
+
+            <h3>How did you hear about us?</h3>
+            <select>
+                <option disabled selected>Select an option</option>
+                <option>Social Media (e.g., Instagram, Twitter, Facebook, TikTok)</option>
+                <option>Friend or Family Recommendation</option>
+                <option>Search Engine (e.g., Google)</option>
+                <option>Online Advertisement</option>
+                <option>Other (please specify in comments)</option>
+            </select>
+            <h3>Additional Comments:</h3>
+            <textarea required placeholder="Share your thoughts to us :>" rows="4"></textarea>
             <input type="submit">
-            <button>Reset</button>
+            <button type="reset">Reset</button>
         </fieldset>
     </form>
 </body>

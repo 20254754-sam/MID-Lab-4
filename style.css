@@ -1,11 +1,11 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif ; 
-    background-color: #ffdede; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffdede;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 700px;
+    height: 1000px;
     margin: 0;
     color: #5f0000;
 }
@@ -24,7 +24,7 @@ body {
 fieldset {
     border-radius: 5px;
 }
-legend{
+legend {
     text-shadow:
     0 0 5px #e46b6b,
     0 0 10px #e46b6b,
@@ -32,14 +32,18 @@ legend{
     0 0 30px #e46b6b,
     0 0 40px #e46b6b,
     0 0 50px #e46b6b;
-
 }
 input {
     width: 100%;
-    padding: 8px; 
-    margin-bottom: 20px; 
+    padding: 8px;
+    margin-bottom: 20px;
     box-sizing: border-box;
     border: 1px solid #e46b6b;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
 }
 input[type="text"]::placeholder,
 input[type="email"]::placeholder,
@@ -55,12 +59,12 @@ input, select, textarea, button {
     margin-bottom: 15px;
     box-sizing: border-box;
     border: 1px solid #e46b6b;
-    font-size: 14px; 
+    font-size: 14px;
 }
 h3 {
-    display: block; 
-    margin-bottom: 5px; 
-    font-weight: bold; 
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 input[type="submit"] {
     background-color: #e46b6b;
