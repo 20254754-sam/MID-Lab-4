@@ -67,20 +67,42 @@ h3 {
     font-weight: bold;
 }
 input[type="submit"] {
-    background-color: #e46b6b;
-    color: white;
+    background-color: #ffffff;
+    color: #e46b6b;
     border: none;
     cursor: pointer;
     border-radius: 4px;
     padding: 10px;
     font-weight: bold;
+    border: 1px solid #e46b6b;
+}
+input[type="submit"]:hover {
+    background-color: #e46b6b;
+    color: white;
+    opacity: 0.9;
+    box-shadow:
+    0 0 5px #e46b6b,
+    0 0 10px #e46b6b,
+    0 0 20px #e46b6b,
+    0 0 30px #e46b6b;
 }
 button {
-    background-color: #e46b6b;
-    color: white;
+    background-color: #ffffff;
+    color: #e46b6b;
     border: none;
     cursor: pointer;
     border-radius: 4px;
     padding: 10px;
     font-weight: bold;
+    border: 1px solid #e46b6b;
+}
+button:hover {
+    background-color: #e46b6b;
+    color: white;
+    opacity: 0.9;
+    box-shadow:
+    0 0 5px #e46b6b,
+    0 0 10px #e46b6b,
+    0 0 20px #e46b6b,
+    0 0 30px #e46b6b;
 }
